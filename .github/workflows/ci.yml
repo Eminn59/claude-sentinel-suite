@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.os }} · Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Smoke-test the CLIs
+        run: |
+          python scripts/context_diet.py --demo --no-color
+          python scripts/spiderweb.py --target . --output spiderweb-ci.html
+          python scripts/nightshift.py --dry-run --speed 0 --no-color
+          python hooks/secret_guard.py --check "rm -rf ~"
+      - name: Installer syntax
+        if: runner.os != 'Windows'
+        run: bash -n install.sh
