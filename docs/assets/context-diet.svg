@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="716" height="616" viewBox="0 0 716 616" role="img" aria-label="context_diet benchmark output">
+<rect width="716" height="616" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="715" height="615" rx="12" fill="none" stroke="#30363d"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
+<text x="358" y="24" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">context_diet.py</text>
+<g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<text x="22.0" y="58" fill="#7ee787" font-weight="normal" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="38.8" y="58" fill="#f0f6fc" font-weight="bold" textLength="310.8" lengthAdjust="spacingAndGlyphs">python scripts/context_diet.py --demo</text>
+<text x="22.0" y="98" fill="#6c6fd6" font-weight="normal" textLength="672.0" lengthAdjust="spacingAndGlyphs">╭──────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="22.0" y="118" fill="#6c6fd6" font-weight="normal" textLength="8.4" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="38.8" y="118" fill="#ff7ce5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">■</text>
+<text x="55.6" y="118" fill="#f0f6fc" font-weight="bold" textLength="100.8" lengthAdjust="spacingAndGlyphs">CONTEXT DIET</text>
+<text x="173.2" y="118" fill="#f0f6fc" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="198.4" y="118" fill="#f0f6fc" font-weight="bold" textLength="134.4" lengthAdjust="spacingAndGlyphs">AST skeletonizer</text>
+<text x="349.6" y="118" fill="#f0f6fc" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="374.8" y="118" fill="#f0f6fc" font-weight="bold" textLength="176.4" lengthAdjust="spacingAndGlyphs">claude-sentinel-suite</text>
+<text x="685.6" y="118" fill="#6c6fd6" font-weight="normal" textLength="8.4" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="22.0" y="138" fill="#6c6fd6" font-weight="normal" textLength="672.0" lengthAdjust="spacingAndGlyphs">╰──────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="38.8" y="178" fill="#8b949e" font-weight="normal" textLength="33.6" lengthAdjust="spacingAndGlyphs">FILE</text>
+<text x="332.8" y="178" fill="#8b949e" font-weight="normal" textLength="33.6" lengthAdjust="spacingAndGlyphs">LANG</text>
+<text x="433.6" y="178" fill="#8b949e" font-weight="normal" textLength="67.2" lengthAdjust="spacingAndGlyphs">ORIGINAL</text>
+<text x="517.6" y="178" fill="#8b949e" font-weight="normal" textLength="67.2" lengthAdjust="spacingAndGlyphs">SKELETON</text>
+<text x="610.0" y="178" fill="#8b949e" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">SAVED</text>
+<text x="38.8" y="198" fill="#30363d" font-weight="normal" textLength="638.4" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────────────────────────────────────</text>
+<text x="38.8" y="218" fill="#c9d1d9" font-weight="normal" textLength="168.0" lengthAdjust="spacingAndGlyphs">scripts/spiderweb.py</text>
+<text x="332.8" y="218" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="450.4" y="218" fill="#c9d1d9" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">11,527</text>
+<text x="559.6" y="218" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">901</text>
+<text x="610.0" y="218" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">92.2%</text>
+<text x="38.8" y="238" fill="#c9d1d9" font-weight="normal" textLength="193.2" lengthAdjust="spacingAndGlyphs">scripts/context_diet.py</text>
+<text x="332.8" y="238" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="238" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">8,377</text>
+<text x="542.8" y="238" fill="#8b949e" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,206</text>
+<text x="610.0" y="238" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">85.6%</text>
+<text x="38.8" y="258" fill="#c9d1d9" font-weight="normal" textLength="176.4" lengthAdjust="spacingAndGlyphs">scripts/nightshift.py</text>
+<text x="332.8" y="258" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="258" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">6,750</text>
+<text x="559.6" y="258" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">855</text>
+<text x="610.0" y="258" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">87.3%</text>
+<text x="38.8" y="278" fill="#c9d1d9" font-weight="normal" textLength="176.4" lengthAdjust="spacingAndGlyphs">hooks/secret_guard.py</text>
+<text x="332.8" y="278" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="278" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">2,979</text>
+<text x="559.6" y="278" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">276</text>
+<text x="610.0" y="278" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">90.7%</text>
+<text x="38.8" y="298" fill="#c9d1d9" font-weight="normal" textLength="134.4" lengthAdjust="spacingAndGlyphs">hooks/handoff.py</text>
+<text x="332.8" y="298" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="298" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">2,030</text>
+<text x="559.6" y="298" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">218</text>
+<text x="610.0" y="298" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">89.3%</text>
+<text x="38.8" y="318" fill="#c9d1d9" font-weight="normal" textLength="218.4" lengthAdjust="spacingAndGlyphs">tests/test_context_diet.py</text>
+<text x="332.8" y="318" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="318" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,978</text>
+<text x="559.6" y="318" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">229</text>
+<text x="610.0" y="318" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">88.4%</text>
+<text x="38.8" y="338" fill="#c9d1d9" font-weight="normal" textLength="285.6" lengthAdjust="spacingAndGlyphs">tests/test_hooks_and_nightshift.py</text>
+<text x="332.8" y="338" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="338" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,728</text>
+<text x="559.6" y="338" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">194</text>
+<text x="610.0" y="338" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">88.8%</text>
+<text x="38.8" y="358" fill="#c9d1d9" font-weight="normal" textLength="218.4" lengthAdjust="spacingAndGlyphs">tests/test_secret_guard.py</text>
+<text x="332.8" y="358" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="358" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,394</text>
+<text x="559.6" y="358" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">257</text>
+<text x="610.0" y="358" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">81.6%</text>
+<text x="38.8" y="378" fill="#c9d1d9" font-weight="normal" textLength="193.2" lengthAdjust="spacingAndGlyphs">hooks/register_hooks.py</text>
+<text x="332.8" y="378" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="378" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,313</text>
+<text x="559.6" y="378" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">172</text>
+<text x="610.0" y="378" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">86.9%</text>
+<text x="38.8" y="398" fill="#c9d1d9" font-weight="normal" textLength="193.2" lengthAdjust="spacingAndGlyphs">tests/test_spiderweb.py</text>
+<text x="332.8" y="398" fill="#79c0ff" font-weight="normal" textLength="50.4" lengthAdjust="spacingAndGlyphs">python</text>
+<text x="458.8" y="398" fill="#c9d1d9" font-weight="normal" textLength="42.0" lengthAdjust="spacingAndGlyphs">1,276</text>
+<text x="559.6" y="398" fill="#8b949e" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">148</text>
+<text x="610.0" y="398" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">88.4%</text>
+<text x="38.8" y="418" fill="#30363d" font-weight="normal" textLength="638.4" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────────────────────────────────────</text>
+<text x="38.8" y="458" fill="#8b949e" font-weight="normal" textLength="159.6" lengthAdjust="spacingAndGlyphs">Total Files Scanned</text>
+<text x="290.8" y="458" fill="#f0f6fc" font-weight="bold" textLength="16.8" lengthAdjust="spacingAndGlyphs">10</text>
+<text x="38.8" y="478" fill="#8b949e" font-weight="normal" textLength="126.0" lengthAdjust="spacingAndGlyphs">Original Tokens</text>
+<text x="257.2" y="478" fill="#f0f6fc" font-weight="bold" textLength="50.4" lengthAdjust="spacingAndGlyphs">39,352</text>
+<text x="38.8" y="498" fill="#8b949e" font-weight="normal" textLength="142.8" lengthAdjust="spacingAndGlyphs">Compressed Tokens</text>
+<text x="265.6" y="498" fill="#f0f6fc" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">4,456</text>
+<text x="38.8" y="518" fill="#8b949e" font-weight="normal" textLength="134.4" lengthAdjust="spacingAndGlyphs">Percentage Saved</text>
+<text x="265.6" y="518" fill="#7ee787" font-weight="bold" textLength="92.4" lengthAdjust="spacingAndGlyphs">88.7% saved</text>
+<text x="383.2" y="518" fill="#7ee787" font-weight="normal" textLength="226.8" lengthAdjust="spacingAndGlyphs">██████████████████████████▋</text>
+<text x="610.0" y="518" fill="#30363d" font-weight="normal" textLength="25.2" lengthAdjust="spacingAndGlyphs">░░░</text>
+<text x="38.8" y="558" fill="#8b949e" font-weight="normal" textLength="92.4" lengthAdjust="spacingAndGlyphs">by language</text>
+<text x="148.0" y="558" fill="#79c0ff" font-weight="normal" textLength="84.0" lengthAdjust="spacingAndGlyphs">python ×10</text>
+<text x="240.4" y="558" fill="#7ee787" font-weight="bold" textLength="42.0" lengthAdjust="spacingAndGlyphs">88.7%</text>
+<text x="38.8" y="578" fill="#6e7681" font-weight="normal" textLength="134.4" lengthAdjust="spacingAndGlyphs">scanned in 0.03s</text>
+<text x="190.0" y="578" fill="#6e7681" font-weight="normal" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="215.2" y="578" fill="#6e7681" font-weight="normal" textLength="151.2" lengthAdjust="spacingAndGlyphs">tokens ≈ chars / 4</text>
+<text x="383.2" y="578" fill="#6e7681" font-weight="normal" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="408.4" y="578" fill="#6e7681" font-weight="normal" textLength="100.8" lengthAdjust="spacingAndGlyphs">bodies → ...</text>
+</g></svg>
