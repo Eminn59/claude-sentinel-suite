@@ -60,33 +60,35 @@ Validation: every one of the 1,874 parseable `.py` files in the CPython 3.14 sta
 
 ```mermaid
 flowchart TB
-    you([You]) --> main
-    subgraph main["Main session · Opus / Sonnet"]
-        router["SKILL.md<br/>routing rules"]
+    you([You]) --> orch["<b>Main session</b><br/>Opus / Sonnet + SKILL.md router"]
+
+    subgraph scripts [AST and graph scripts]
+        diet["context_diet.py<br/>AST skeleton"]
+        web["spiderweb.py<br/>dependency map"]
+        night["nightshift.py<br/>task queue + alerts"]
     end
 
-    router -->|orient| diet["context_diet.py<br/>AST skeleton"]
-    router -->|"what imports what?"| web["spiderweb.py<br/>D3 dependency map"]
-    router -->|queue work| night["nightshift.py<br/>Discord · Telegram alerts"]
-
-    router -. delegate .-> haiku
-    subgraph haiku["Haiku micro-agents (cheap, fast, isolated context)"]
+    subgraph haiku [Haiku micro-agents]
         scribe[session-scribe]
         sanity[sanity-checker]
-        guardA[secret-guard]
+        sguard[secret-guard]
         compact[memory-compactor]
         triage[log-triage]
     end
 
-    subgraph hooks["Hooks (deterministic, run by Claude Code)"]
-        guardH["secret_guard.py<br/>PreToolUse"]
-        handoff["handoff.py<br/>PreCompact · SessionStart"]
+    subgraph hooks [Claude Code hooks]
+        guard["secret_guard.py<br/>PreToolUse"]
+        handoff["handoff.py<br/>PreCompact + SessionStart"]
     end
 
+    orch -->|orient| diet
+    orch -->|map deps| web
+    orch -->|queue work| night
+    orch -.->|delegate| scribe & sanity & sguard & compact & triage
+    guard -.->|deny or ask| orch
     scribe --> file[(".claude/HANDOFF.md")]
     handoff --> file
-    file -->|next session starts here| main
-    guardH -. "deny / ask" .-> main
+    file -->|next session resumes here| orch
 ```
 
 Opus or Sonnet stays the orchestrator. Mechanical, high-volume work (summarizing logs, auditing diffs, writing the handoff) goes to **Haiku sub-agents** that run in their own context window, so their input never pollutes yours. Anything that must *always* happen (blocking a destructive command, snapshotting state before compaction) is a **hook**, because hooks run every time and a prompt can be forgotten.
